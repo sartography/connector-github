@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "connector-github"
+version = "0.2.0"
+description = "Make API Requests to github"
+authors = ["Jon Herron <jon.herron@yahoo.com>"]
+readme = "README.md"
+packages = [{include = "connector_github", from = "src" }]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.28.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
